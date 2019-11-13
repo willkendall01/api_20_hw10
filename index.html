@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cocktail</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="drink">
+	<div class="drink_inner" id="name"></div>
+	<div class="drink_inner"  id="alcoholic"></div>
+	<div class="drink_inner"  id="ingredients"></div>
+	<div class="drink_inner"  id="instructions"></div>
+</div>
+
+<div class="questions">
+	<div class="question"> This is the Cocktail DB API, available for free from Rapid API. It
+		has many functions all centered around cocktails! Here I've used it
+		as a random cocktail generator, but it could also be used to lookup cocktails by name
+	or ingredient while filtering by things like Glass Shape or Alcoholic / Non-Alcoholic.</div>
+
+	<div class="question"> This API can be found at: https://rapidapi.com/theapiguy/api/the-cocktail-db?endpoint=apiendpoint_b2280d27-a2ef-4de9-be14-8c3f88f2d9ec</div>
+
+	<div class="question"> I had to set some request headers in order to access this data 
+	[x-rapidapi-host: the-cocktail-db.p.rapidapi.com] as well as [x-rapidapi-key: 
+	042bde6587mshd6ee5cb1ae07dc7p118916jsn5b843a8f8de]. Other than that I used [xhr.open("GET", 
+	"https://the-cocktail-db.p.rapidapi.com/random.php", true)] in order to use the GET method
+	to get a random cocktail asynchronously </div>
+
+	<div class="question"> The random generator would be a great addition to a cocktail supply store
+	 website. I'm excited just browsing these, and I'd be likely to order the ingredients from an
+	 adjacent page. You could also use it as a part of a fun party app to give ideas
+	 to those who lack a diverse knowledge of cocktails.</div>
+
+
+</div>
+
+
+
+<script type="text/javascript" src="api.js"></script>
+</body>
+</html>

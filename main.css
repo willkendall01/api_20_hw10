@@ -1,0 +1,36 @@
+.drink {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;	
+	align-items: center; 
+	background-color: rgba(0,0,0,.2);
+	width: 40%;
+	margin: 0 auto
+}
+
+.drink_inner {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+#name {
+	font-weight: bold
+}
+
+.questions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 80%;
+	max-width: 800px;
+}
+
+.question {
+	font-family: sans-serif;
+	margin: 10px;
+}
