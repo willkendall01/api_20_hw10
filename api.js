@@ -42,3 +42,7 @@ function parse_measure(meas) {
 	else 
 		return meas
 }
+
+function refresh() {
+	window.location.reload(true);
+}
